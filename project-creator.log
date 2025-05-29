@@ -1,0 +1,970 @@
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+From ModusToolbox Tools version 3.4.0.0 installed at /Applications/ModusToolbox/tools_3.4, using
+ srecord version 1.64.0.15
+ library-manager version 2.30.0.4360
+ qspi-configurator version 4.40.0.2321
+ device-configurator version 5.20.0.2873
+ mtbsearch version 1.4.0.3447
+ capsense-configurator version 6.40.0.8062
+ seglcd-configurator version 1.70.0.1928
+ mtbquery version 1.4.0.3447
+ hardware-config-server version 1.2.0.1243
+ signcombinemkgen version 1.0.0.268
+ bsp-assistant version 1.30.0.2394
+ cymcuelftool version 1.0.0.62
+ gcc version 11.3.1.67
+ modus-shell version 1.5.0.123
+ lcs-manager-cli version 1.20.0.291
+ ninja version 1.12.1
+ dashboard version 3.4.0.276
+ mtbgetlibs version 1.4.0.3447
+ bt-configurator version 3.10.0.2973
+ usbdev-configurator version 2.80.0.1997
+ smartio-configurator version 4.30.0.1497
+ make version 2.4.0.6343
+ detectandid version 5.0.1.207
+ mbtp version 5.0.1.207
+ mtbideexport version 1.3.0.268
+ project-creator version 2.30.0.4811
+ dfuh-tool version 2.60.0.2347
+ ez-pd-configurator version 2.10.0.2074
+ mtbninja version 1.4.0.3447
+ airoc-tools version 5.0.1.207
+ mtblaunch version 1.4.0.3447
+ lin-configurator version 1.50.0.2044
+ proxy-helper version 1.60.0.380
+Loading the manifest data
+Found environment variable CyRemoteManifestOverride=https://gitlab.intra.infineon.com/rsg/mtb-super-manifest/-/raw/xx829_March25/mtb-super-manifest-fv2.xml
+Online Content mode has been enabled by default.
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://gitlab.intra.infineon.com/rsg/mtb-super-manifest/-/raw/xx829_March25/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-super-manifest/-/raw/xx829_March25/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-super-manifest/-/raw/xx829_March25/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://gitlab.intra.infineon.com/rsg/mtb-super-manifest/-/raw/xx829_March25/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://gitlab.intra.infineon.com/rsg/mtb-super-manifest/-/raw/xx829_March25/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-ce-manifest/raw/xx829_March25/mtb-ce-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-ce-manifest/raw/xx829_March25/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-app-manifest/raw/xx829_March25/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-app-manifest/raw/xx829_March25/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/cce-app-manifest/raw/xx829_March25/cce-app-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/Altia-Marketing/altia-ce-manifest/raw/main/altia-ce-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/avnet-iotconnect/avnet-iotc-mtb-ce-manifest/raw/main/avnet-iotc-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/mtb-ce-manifest-fv2-rtlabs.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bsp-manifest/raw/xx829_March25/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bsp-manifest/raw/xx829_March25/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bsp-manifest/raw/xx829_March25/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bsp-manifest/raw/xx829_March25/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-bsp-manifest/raw/xx829_March25/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-bsp-manifest/raw/xx829_March25/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-bsp-manifest/raw/xx829_March25/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-dependencies-manifest.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-mw-manifest/raw/xx829_March25/mtb-mw-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-mw-manifest/raw/xx829_March25/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-mw-manifest/raw/xx829_March25/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-mw-manifest/raw/xx829_March25/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-mw-manifest/raw/xx829_March25/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-mw-manifest/raw/xx829_March25/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-wifi-mw-manifest/raw/xx829_March25/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-wifi-mw-manifest/raw/xx829_March25/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/rsg/mtb-wifi-mw-manifest/raw/xx829_March25/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/avnet-iotconnect/avnet-iotc-mtb-mw-manifest/raw/main/avnet-iotc-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/rtlabs-mtb-mw-manifest-fw2-rtlabs.xml'
+Downloading manifest file 'http://github-mirror.infineon.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-ce-manifest/raw/xx829_March25/mtb-ce-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-ce-manifest/raw/xx829_March25/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-app-manifest/raw/xx829_March25/mtb-bt-app-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-app-manifest/raw/xx829_March25/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/cce-app-manifest/raw/xx829_March25/cce-app-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/Altia-Marketing/altia-ce-manifest/raw/main/altia-ce-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/avnet-iotconnect/avnet-iotc-mtb-ce-manifest/raw/main/avnet-iotc-mtb-ce-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/mtb-ce-manifest-fv2-rtlabs.xml'
+Finished download of file 'http://github-mirror.infineon.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bsp-manifest/raw/xx829_March25/mtb-bsp-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bsp-manifest/raw/xx829_March25/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bsp-manifest/raw/xx829_March25/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bsp-manifest/raw/xx829_March25/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-bsp-manifest/raw/xx829_March25/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-bsp-manifest/raw/xx829_March25/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-bsp-manifest/raw/xx829_March25/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'http://github-mirror.infineon.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-dependencies-manifest.xml'
+Finished download of file 'http://github-mirror.infineon.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-mw-manifest/raw/xx829_March25/mtb-mw-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-mw-manifest/raw/xx829_March25/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-mw-manifest/raw/xx829_March25/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-mw-manifest/raw/xx829_March25/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-mw-manifest/raw/xx829_March25/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-bt-mw-manifest/raw/xx829_March25/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-wifi-mw-manifest/raw/xx829_March25/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-wifi-mw-manifest/raw/xx829_March25/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/rsg/mtb-wifi-mw-manifest/raw/xx829_March25/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'http://github-mirror.infineon.com/avnet-iotconnect/avnet-iotc-mtb-mw-manifest/raw/main/avnet-iotc-mtb-mw-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'http://github-mirror.infineon.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/rtlabs-mtb-mw-manifest-fw2-rtlabs.xml'
+Finished download of file 'http://github-mirror.infineon.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2826 ms)
+0 error(s), 0 warning(s)
+
+Summary: 
+
+BSP: CYW920829M2EVK-02
+Template Application(s): Bluetooth LE Battery Server with OTA
+Application(s) Root Path: /Users/svt_btsdk_iop2/mtw
+
+Press "Create" to create the selected application(s).
+
+Collecting application data...
+
+Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
+/Applications/ModusToolbox/tools_3.4/project-creator/project-creator-cli --board-id CYW920829M2EVK-02 --board-uri https://gitlab.intra.infineon.com/repo-staging/TARGET_CYW920829M2EVK-02 --board-commit latest-v2.X --app-id mtb-example-btstack-freertos-cyw20829-battery-server-ota --app-uri http://github-mirror.infineon.com/Infineon/mtb-example-btstack-freertos-cyw20829-battery-server-ota --app-commit latest-v2.X --target-dir /Users/svt_btsdk_iop2/mtw --user-app-name battery-ota --use-modus-shell
+Starting application creation for '/Users/svt_btsdk_iop2/mtw/battery-ota'.
+Acquiring the application source 'http://github-mirror.infineon.com/Infineon/mtb-example-btstack-freertos-cyw20829-battery-server-ota'.
+Git#0>Cloning into 'battery-ota'...
+Git#0>warning: filtering not recognized by server, ignoring
+Git#0>warning: filtering not recognized by server, ignoring
+Git#0>remote: Enumerating objects: 106, done.        
+Git#0>remote: Counting objects:   0% (1/106)        
+Git#0>remote: Counting objects:   1% (2/106)        
+Git#0>remote: Counting objects:   2% (3/106)        
+Git#0>remote: Counting objects:   3% (4/106)        
+Git#0>remote: Counting objects:   4% (5/106)        
+Git#0>remote: Counting objects:   5% (6/106)        
+Git#0>remote: Counting objects:   6% (7/106)        
+Git#0>remote: Counting objects:   7% (8/106)        
+Git#0>remote: Counting objects:   8% (9/106)        
+Git#0>remote: Counting objects:   9% (10/106)        
+Git#0>remote: Counting objects:  10% (11/106)        
+Git#0>remote: Counting objects:  11% (12/106)        
+Git#0>remote: Counting objects:  12% (13/106)        
+Git#0>remote: Counting objects:  13% (14/106)        
+Git#0>remote: Counting objects:  14% (15/106)        
+Git#0>remote: Counting objects:  15% (16/106)        
+Git#0>remote: Counting objects:  16% (17/106)        
+Git#0>remote: Counting objects:  17% (19/106)        
+Git#0>remote: Counting objects:  18% (20/106)        
+Git#0>remote: Counting objects:  19% (21/106)        
+Git#0>remote: Counting objects:  20% (22/106)        
+Git#0>remote: Counting objects:  21% (23/106)        
+Git#0>remote: Counting objects:  22% (24/106)        
+Git#0>remote: Counting objects:  23% (25/106)        
+Git#0>remote: Counting objects:  24% (26/106)        
+Git#0>remote: Counting objects:  25% (27/106)        
+Git#0>remote: Counting objects:  26% (28/106)        
+Git#0>remote: Counting objects:  27% (29/106)        
+Git#0>remote: Counting objects:  28% (30/106)        
+Git#0>remote: Counting objects:  29% (31/106)        
+Git#0>remote: Counting objects:  30% (32/106)        
+Git#0>remote: Counting objects:  31% (33/106)        
+Git#0>remote: Counting objects:  32% (34/106)        
+Git#0>remote: Counting objects:  33% (35/106)        
+Git#0>remote: Counting objects:  34% (37/106)        
+Git#0>remote: Counting objects:  35% (38/106)        
+Git#0>remote: Counting objects:  36% (39/106)        
+Git#0>remote: Counting objects:  37% (40/106)        
+Git#0>remote: Counting objects:  38% (41/106)        
+Git#0>remote: Counting objects:  39% (42/106)        
+Git#0>remote: Counting objects:  40% (43/106)        
+Git#0>remote: Counting objects:  41% (44/106)        
+Git#0>remote: Counting objects:  42% (45/106)        
+Git#0>remote: Counting objects:  43% (46/106)        
+Git#0>remote: Counting objects:  44% (47/106)        
+Git#0>remote: Counting objects:  45% (48/106)        
+Git#0>remote: Counting objects:  46% (49/106)        
+Git#0>remote: Counting objects:  47% (50/106)        
+Git#0>remote: Counting objects:  48% (51/106)        
+Git#0>remote: Counting objects:  49% (52/106)        
+Git#0>remote: Counting objects:  50% (53/106)        
+Git#0>remote: Counting objects:  51% (55/106)        
+Git#0>remote: Counting objects:  52% (56/106)        
+Git#0>remote: Counting objects:  53% (57/106)        
+Git#0>remote: Counting objects:  54% (58/106)        
+Git#0>remote: Counting objects:  55% (59/106)        
+Git#0>remote: Counting objects:  56% (60/106)        
+Git#0>remote: Counting objects:  57% (61/106)        
+Git#0>remote: Counting objects:  58% (62/106)        
+Git#0>remote: Counting objects:  59% (63/106)        
+Git#0>remote: Counting objects:  60% (64/106)        
+Git#0>remote: Counting objects:  61% (65/106)        
+Git#0>remote: Counting objects:  62% (66/106)        
+Git#0>remote: Counting objects:  63% (67/106)        
+Git#0>remote: Counting objects:  64% (68/106)        
+Git#0>remote: Counting objects:  65% (69/106)        
+Git#0>remote: Counting objects:  66% (70/106)        
+Git#0>remote: Counting objects:  67% (72/106)        
+Git#0>remote: Counting objects:  68% (73/106)        
+Git#0>remote: Counting objects:  69% (74/106)        
+Git#0>remote: Counting objects:  70% (75/106)        
+Git#0>remote: Counting objects:  71% (76/106)        
+Git#0>remote: Counting objects:  72% (77/106)        
+Git#0>remote: Counting objects:  73% (78/106)        
+Git#0>remote: Counting objects:  74% (79/106)        
+Git#0>remote: Counting objects:  75% (80/106)        
+Git#0>remote: Counting objects:  76% (81/106)        
+Git#0>remote: Counting objects:  77% (82/106)        
+Git#0>remote: Counting objects:  78% (83/106)        
+Git#0>remote: Counting objects:  79% (84/106)        
+Git#0>remote: Counting objects:  80% (85/106)        
+Git#0>remote: Counting objects:  81% (86/106)        
+Git#0>remote: Counting objects:  82% (87/106)        
+Git#0>remote: Counting objects:  83% (88/106)        
+Git#0>remote: Counting objects:  84% (90/106)        
+Git#0>remote: Counting objects:  85% (91/106)        
+Git#0>remote: Counting objects:  86% (92/106)        
+Git#0>remote: Counting objects:  87% (93/106)        
+Git#0>remote: Counting objects:  88% (94/106)        
+Git#0>remote: Counting objects:  89% (95/106)        
+Git#0>remote: Counting objects:  90% (96/106)        
+Git#0>remote: Counting objects:  91% (97/106)        
+Git#0>remote: Counting objects:  92% (98/106)        
+Git#0>remote: Counting objects:  93% (99/106)        
+Git#0>remote: Counting objects:  94% (100/106)        
+Git#0>remote: Counting objects:  95% (101/106)        
+Git#0>remote: Counting objects:  96% (102/106)        
+Git#0>remote: Counting objects:  97% (103/106)        
+Git#0>remote: Counting objects:  98% (104/106)        
+Git#0>remote: Counting objects:  99% (105/106)        
+Git#0>remote: Counting objects: 100% (106/106)        
+Git#0>remote: Counting objects: 100% (106/106), done.        
+Git#0>remote: Compressing objects:   1% (1/94)        
+Git#0>remote: Compressing objects:   2% (2/94)        
+Git#0>remote: Compressing objects:   3% (3/94)        
+Git#0>remote: Compressing objects:   4% (4/94)        
+Git#0>remote: Compressing objects:   5% (5/94)        
+Git#0>remote: Compressing objects:   6% (6/94)        
+Git#0>remote: Compressing objects:   7% (7/94)        
+Git#0>remote: Compressing objects:   8% (8/94)        
+Git#0>remote: Compressing objects:   9% (9/94)        
+Git#0>remote: Compressing objects:  10% (10/94)        
+Git#0>remote: Compressing objects:  11% (11/94)        
+Git#0>remote: Compressing objects:  12% (12/94)        
+Git#0>remote: Compressing objects:  13% (13/94)        
+Git#0>remote: Compressing objects:  14% (14/94)        
+Git#0>remote: Compressing objects:  15% (15/94)        
+Git#0>remote: Compressing objects:  17% (16/94)        
+Git#0>remote: Compressing objects:  18% (17/94)        
+Git#0>remote: Compressing objects:  19% (18/94)        
+Git#0>remote: Compressing objects:  20% (19/94)        
+Git#0>remote: Compressing objects:  21% (20/94)        
+Git#0>remote: Compressing objects:  22% (21/94)        
+Git#0>remote: Compressing objects:  23% (22/94)        
+Git#0>remote: Compressing objects:  24% (23/94)        
+Git#0>remote: Compressing objects:  25% (24/94)        
+Git#0>remote: Compressing objects:  26% (25/94)        
+Git#0>remote: Compressing objects:  27% (26/94)        
+Git#0>remote: Compressing objects:  28% (27/94)        
+Git#0>remote: Compressing objects:  29% (28/94)        
+Git#0>remote: Compressing objects:  30% (29/94)        
+Git#0>remote: Compressing objects:  31% (30/94)        
+Git#0>remote: Compressing objects:  32% (31/94)        
+Git#0>remote: Compressing objects:  34% (32/94)        
+Git#0>remote: Compressing objects:  35% (33/94)        
+Git#0>remote: Compressing objects:  36% (34/94)        
+Git#0>remote: Compressing objects:  37% (35/94)        
+Git#0>remote: Compressing objects:  38% (36/94)        
+Git#0>remote: Compressing objects:  39% (37/94)        
+Git#0>remote: Compressing objects:  40% (38/94)        
+Git#0>remote: Compressing objects:  41% (39/94)        
+Git#0>remote: Compressing objects:  42% (40/94)        
+Git#0>remote: Compressing objects:  43% (41/94)        
+Git#0>remote: Compressing objects:  44% (42/94)        
+Git#0>remote: Compressing objects:  45% (43/94)        
+Git#0>remote: Compressing objects:  46% (44/94)        
+Git#0>remote: Compressing objects:  47% (45/94)        
+Git#0>remote: Compressing objects:  48% (46/94)        
+Git#0>remote: Compressing objects:  50% (47/94)        
+Git#0>remote: Compressing objects:  51% (48/94)        
+Git#0>remote: Compressing objects:  52% (49/94)        
+Git#0>remote: Compressing objects:  53% (50/94)        
+Git#0>remote: Compressing objects:  54% (51/94)        
+Git#0>remote: Compressing objects:  55% (52/94)        
+Git#0>remote: Compressing objects:  56% (53/94)        
+Git#0>remote: Compressing objects:  57% (54/94)        
+Git#0>remote: Compressing objects:  58% (55/94)        
+Git#0>remote: Compressing objects:  59% (56/94)        
+Git#0>remote: Compressing objects:  60% (57/94)        
+Git#0>remote: Compressing objects:  61% (58/94)        
+Git#0>remote: Compressing objects:  62% (59/94)        
+Git#0>remote: Compressing objects:  63% (60/94)        
+Git#0>remote: Compressing objects:  64% (61/94)        
+Git#0>remote: Compressing objects:  65% (62/94)        
+Git#0>remote: Compressing objects:  67% (63/94)        
+Git#0>remote: Compressing objects:  68% (64/94)        
+Git#0>remote: Compressing objects:  69% (65/94)        
+Git#0>remote: Compressing objects:  70% (66/94)        
+Git#0>remote: Compressing objects:  71% (67/94)        
+Git#0>remote: Compressing objects:  72% (68/94)        
+Git#0>remote: Compressing objects:  73% (69/94)        
+Git#0>remote: Compressing objects:  74% (70/94)        
+Git#0>remote: Compressing objects:  75% (71/94)        
+Git#0>remote: Compressing objects:  76% (72/94)        
+Git#0>remote: Compressing objects:  77% (73/94)        
+Git#0>remote: Compressing objects:  78% (74/94)        
+Git#0>remote: Compressing objects:  79% (75/94)        
+Git#0>remote: Compressing objects:  80% (76/94)        
+Git#0>remote: Compressing objects:  81% (77/94)        
+Git#0>remote: Compressing objects:  82% (78/94)        
+Git#0>remote: Compressing objects:  84% (79/94)        
+Git#0>remote: Compressing objects:  85% (80/94)        
+Git#0>remote: Compressing objects:  86% (81/94)        
+Git#0>remote: Compressing objects:  87% (82/94)        
+Git#0>remote: Compressing objects:  88% (83/94)        
+Git#0>remote: Compressing objects:  89% (84/94)        
+Git#0>remote: Compressing objects:  90% (85/94)        
+Git#0>remote: Compressing objects:  91% (86/94)        
+Git#0>remote: Compressing objects:  92% (87/94)        
+Git#0>remote: Compressing objects:  93% (88/94)        
+Git#0>remote: Compressing objects:  94% (89/94)        
+Git#0>remote: Compressing objects:  95% (90/94)        
+Git#0>remote: Compressing objects:  96% (91/94)        
+Git#0>remote: Compressing objects:  97% (92/94)        
+Git#0>remote: Compressing objects:  98% (93/94)        
+Git#0>remote: Compressing objects: 100% (94/94)        
+Git#0>remote: Compressing objects: 100% (94/94), done.        
+Git#0>Receiving objects:   0% (1/106)
+Git#0>Receiving objects:   1% (2/106)
+Git#0>Receiving objects:   2% (3/106)
+Git#0>Receiving objects:   3% (4/106)
+Git#0>Receiving objects:   4% (5/106)
+Git#0>Receiving objects:   5% (6/106)
+Git#0>Receiving objects:   6% (7/106)
+Git#0>Receiving objects:   7% (8/106)
+Git#0>Receiving objects:   8% (9/106)
+Git#0>Receiving objects:   9% (10/106)
+Git#0>Receiving objects:  10% (11/106)
+Git#0>Receiving objects:  11% (12/106)
+Git#0>Receiving objects:  12% (13/106)
+Git#0>Receiving objects:  13% (14/106)
+Git#0>Receiving objects:  14% (15/106)
+Git#0>Receiving objects:  15% (16/106)
+Git#0>Receiving objects:  16% (17/106)
+Git#0>Receiving objects:  17% (19/106)
+Git#0>Receiving objects:  18% (20/106)
+Git#0>Receiving objects:  19% (21/106)
+Git#0>Receiving objects:  20% (22/106)
+Git#0>Receiving objects:  21% (23/106)
+Git#0>Receiving objects:  22% (24/106)
+Git#0>Receiving objects:  23% (25/106)
+Git#0>Receiving objects:  24% (26/106)
+Git#0>Receiving objects:  25% (27/106)
+Git#0>Receiving objects:  26% (28/106)
+Git#0>Receiving objects:  27% (29/106)
+Git#0>Receiving objects:  28% (30/106)
+Git#0>Receiving objects:  29% (31/106)
+Git#0>Receiving objects:  30% (32/106)
+Git#0>Receiving objects:  31% (33/106)
+Git#0>Receiving objects:  32% (34/106)
+Git#0>Receiving objects:  33% (35/106)
+Git#0>Receiving objects:  34% (37/106)
+Git#0>Receiving objects:  35% (38/106)
+Git#0>Receiving objects:  36% (39/106)
+Git#0>Receiving objects:  37% (40/106)
+Git#0>Receiving objects:  38% (41/106)
+Git#0>Receiving objects:  39% (42/106)
+Git#0>Receiving objects:  40% (43/106)
+Git#0>Receiving objects:  41% (44/106)
+Git#0>Receiving objects:  42% (45/106)
+Git#0>Receiving objects:  43% (46/106)
+Git#0>Receiving objects:  44% (47/106)
+Git#0>Receiving objects:  45% (48/106)
+Git#0>Receiving objects:  46% (49/106)
+Git#0>Receiving objects:  47% (50/106)
+Git#0>Receiving objects:  48% (51/106)
+Git#0>Receiving objects:  49% (52/106)
+Git#0>Receiving objects:  50% (53/106)
+Git#0>Receiving objects:  51% (55/106)
+Git#0>Receiving objects:  52% (56/106)
+Git#0>Receiving objects:  53% (57/106)
+Git#0>Receiving objects:  54% (58/106)
+Git#0>Receiving objects:  55% (59/106)
+Git#0>Receiving objects:  56% (60/106)
+Git#0>Receiving objects:  57% (61/106)
+Git#0>Receiving objects:  58% (62/106)
+Git#0>Receiving objects:  59% (63/106)
+Git#0>Receiving objects:  60% (64/106)
+Git#0>Receiving objects:  61% (65/106)
+Git#0>Receiving objects:  62% (66/106)
+Git#0>Receiving objects:  63% (67/106)
+Git#0>Receiving objects:  64% (68/106)
+Git#0>Receiving objects:  65% (69/106)
+Git#0>Receiving objects:  66% (70/106)
+Git#0>Receiving objects:  67% (72/106)
+Git#0>Receiving objects:  68% (73/106)
+Git#0>Receiving objects:  69% (74/106)
+Git#0>Receiving objects:  70% (75/106)
+Git#0>Receiving objects:  71% (76/106)
+Git#0>Receiving objects:  72% (77/106)
+Git#0>Receiving objects:  73% (78/106)
+Git#0>Receiving objects:  74% (79/106)
+Git#0>Receiving objects:  75% (80/106)
+Git#0>Receiving objects:  76% (81/106)
+Git#0>Receiving objects:  77% (82/106)
+Git#0>Receiving objects:  78% (83/106)
+Git#0>Receiving objects:  79% (84/106)
+Git#0>Receiving objects:  80% (85/106)
+Git#0>Receiving objects:  81% (86/106)
+Git#0>Receiving objects:  82% (87/106)
+Git#0>Receiving objects:  83% (88/106)
+Git#0>Receiving objects:  84% (90/106)
+Git#0>Receiving objects:  85% (91/106)
+Git#0>Receiving objects:  86% (92/106)
+Git#0>Receiving objects:  87% (93/106)
+Git#0>Receiving objects:  88% (94/106)
+Git#0>Receiving objects:  89% (95/106)
+Git#0>Receiving objects:  90% (96/106)
+Git#0>Receiving objects:  91% (97/106)
+Git#0>Receiving objects:  92% (98/106)
+Git#0>Receiving objects:  93% (99/106)
+Git#0>Receiving objects:  94% (100/106)
+Git#0>Receiving objects:  95% (101/106)
+Git#0>Receiving objects:  96% (102/106)
+Git#0>Receiving objects:  97% (103/106)
+Git#0>Receiving objects:  98% (104/106)
+Git#0>Receiving objects:  99% (105/106)
+Git#0>remote: Total 106 (delta 33), reused 0 (delta 0)        
+Git#0>Receiving objects: 100% (106/106)
+Git#0>Receiving objects: 100% (106/106), 1.13 MiB | 3.27 MiB/s, done.
+Git#0>Resolving deltas:   0% (0/33)
+Git#0>Resolving deltas:   3% (1/33)
+Git#0>Resolving deltas:   6% (2/33)
+Git#0>Resolving deltas:   9% (3/33)
+Git#0>Resolving deltas:  12% (4/33)
+Git#0>Resolving deltas:  15% (5/33)
+Git#0>Resolving deltas:  18% (6/33)
+Git#0>Resolving deltas:  27% (9/33)
+Git#0>Resolving deltas:  36% (12/33)
+Git#0>Resolving deltas:  39% (13/33)
+Git#0>Resolving deltas:  42% (14/33)
+Git#0>Resolving deltas:  48% (16/33)
+Git#0>Resolving deltas:  51% (17/33)
+Git#0>Resolving deltas:  54% (18/33)
+Git#0>Resolving deltas:  63% (21/33)
+Git#0>Resolving deltas:  66% (22/33)
+Git#0>Resolving deltas:  69% (23/33)
+Git#0>Resolving deltas:  72% (24/33)
+Git#0>Resolving deltas:  81% (27/33)
+Git#0>Resolving deltas:  84% (28/33)
+Git#0>Resolving deltas:  87% (29/33)
+Git#0>Resolving deltas:  90% (30/33)
+Git#0>Resolving deltas:  93% (31/33)
+Git#0>Resolving deltas:  96% (32/33)
+Git#0>Resolving deltas: 100% (33/33)
+Git#0>Resolving deltas: 100% (33/33), done.
+Git#1>HEAD is now at 1e188d4 Upload mtb-example-btstack-freertos-cyw20829-battery-server-ota [2819]
+Acquired application source successfully.
+Loading the application.
+Loaded the application successfully.
+Processing project 'battery-ota'.
+Starting to commit changes to the filesystem and project 'mtb-example-btstack-freertos-cyw20829-battery-server-ota'.
+Writing mtb file for asset 'CYW920829M2EVK-02' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/deps'.
+Writing mtb file for asset 'btstack' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'freertos' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'abstraction-rtos' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'clib-support' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'connectivity-utilities' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'core-lib' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'core-make' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'mtb-hal-cat1' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'mtb-pdl-cat1' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'recipe-make-cat1b' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'fw-cyw20829b0' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'cmsis' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'device-db' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/libs'.
+Writing mtb file for asset 'btstack-integration' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/deps'.
+Writing mtb file for asset 'ota-bootloader-abstraction' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/deps'.
+Writing mtb file for asset 'ota-update' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/deps'.
+Writing mtb file for asset 'retarget-io' to the folder '/Users/svt_btsdk_iop2/mtw/battery-ota/deps'.
+Git#2>Starting: git -C /Users/svt_btsdk_iop2/mtw/battery-ota/libs clone --progress --origin cypress --no-checkout --filter=blob:none https://gitlab.intra.infineon.com/repo-staging/TARGET_CYW920829M2EVK-02 TARGET_CYW920829M2EVK-02
+Git#3>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/btstack-integration/release-v5.0.2 -c advice.detachedHead=false checkout --progress release-v5.0.2
+Git#4>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/ota-bootloader-abstraction/release-v1.5.3 -c advice.detachedHead=false checkout --progress release-v1.5.3
+Git#5>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/ota-update/release-v4.3.3 -c advice.detachedHead=false checkout --progress release-v4.3.3
+Git#2>Cloning into 'TARGET_CYW920829M2EVK-02'...
+Git#3>HEAD is now at 9412846 sync 'btstack-integration.zip' (repo/btstack-port-cyal/develop/2880)
+Git#3>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/btstack-integration/release-v5.0.2 -c advice.detachedHead=false checkout --progress release-v5.0.2
+Git#6>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/retarget-io/release-v1.7.0 -c advice.detachedHead=false checkout --progress release-v1.7.0
+Git#4>HEAD is now at 3624256 Upload ota-bootloader-abstraction 1.5.3.487 [3403]
+Git#4>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/ota-bootloader-abstraction/release-v1.5.3 -c advice.detachedHead=false checkout --progress release-v1.5.3
+Git#7>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/btstack/release-v3.9.2 -c advice.detachedHead=false checkout --progress release-v3.9.2
+Git#5>HEAD is now at 41441f7 Upload ota-update 4.3.3.1072 [3108]
+Git#5>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/ota-update/release-v4.3.3 -c advice.detachedHead=false checkout --progress release-v4.3.3
+Git#8>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/freertos/release-v10.5.004 -c advice.detachedHead=false checkout --progress release-v10.5.004
+Git#6>HEAD is now at 9dd4eeb Upload retarget-io [3062]
+Git#6>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/retarget-io/release-v1.7.0 -c advice.detachedHead=false checkout --progress release-v1.7.0
+Git#9>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/abstraction-rtos/release-v1.10.0 -c advice.detachedHead=false checkout --progress release-v1.10.0
+Git#7>HEAD is now at 282d85e36 sync 'btstack.zip' (repo/btstack/btstack392/20273)
+Git#7>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/btstack/release-v3.9.2 -c advice.detachedHead=false checkout --progress release-v3.9.2
+Git#10>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/clib-support/release-v1.6.0 -c advice.detachedHead=false checkout --progress release-v1.6.0
+Git#8>HEAD is now at 744403e Upload freertos 10.5.004.824 [3403]
+Git#8>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/freertos/release-v10.5.004 -c advice.detachedHead=false checkout --progress release-v10.5.004
+Git#11>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/connectivity-utilities/release-v4.5.1 -c advice.detachedHead=false checkout --progress release-v4.5.1
+Git#9>HEAD is now at 60ad861 Upload abstraction-rtos [3365]
+Git#9>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/abstraction-rtos/release-v1.10.0 -c advice.detachedHead=false checkout --progress release-v1.10.0
+Git#12>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/core-lib/release-v1.4.3 -c advice.detachedHead=false checkout --progress release-v1.4.3
+Git#10>HEAD is now at 72a71a7 Upload clib-support [3062]
+Git#10>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/clib-support/release-v1.6.0 -c advice.detachedHead=false checkout --progress release-v1.6.0
+Git#13>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/core-make/release-v3.6.1 -c advice.detachedHead=false checkout --progress release-v3.6.1
+Git#11>HEAD is now at 235917d Upload connectivity-utilities 4.5.1.1417 [3403]
+Git#11>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/connectivity-utilities/release-v4.5.1 -c advice.detachedHead=false checkout --progress release-v4.5.1
+Git#14>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/mtb-hal-cat1/release-v2.7.1 -c advice.detachedHead=false checkout --progress release-v2.7.1
+Git#12>HEAD is now at 1603b9b Upload core-lib [3062]
+Git#12>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/core-lib/release-v1.4.3 -c advice.detachedHead=false checkout --progress release-v1.4.3
+Git#15>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/mtb-pdl-cat1/release-v3.16.0 -c advice.detachedHead=false checkout --progress release-v3.16.0
+Git#13>HEAD is now at ec21aff Upload core-make 3.6.1.6907 [3497]
+Git#13>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/core-make/release-v3.6.1 -c advice.detachedHead=false checkout --progress release-v3.6.1
+Git#16>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/recipe-make-cat1b/release-v2.8.0 -c advice.detachedHead=false checkout --progress release-v2.8.0
+Git#14>HEAD is now at ce54d03 Upload mtb-hal-cat1 [3502]
+Git#14>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/mtb-hal-cat1/release-v2.7.1 -c advice.detachedHead=false checkout --progress release-v2.7.1
+Git#17>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/fw-cyw20829b0/release-v1.0.3 -c advice.detachedHead=false checkout --progress release-v1.0.3
+Git#15>HEAD is now at cd9299ba Upload mtb-pdl-cat1 3.16.0.40964 [3403]
+Git#15>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/mtb-pdl-cat1/release-v3.16.0 -c advice.detachedHead=false checkout --progress release-v3.16.0
+Git#18>Starting: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/cmsis/release-v5.8.2 -c advice.detachedHead=false checkout --progress release-v5.8.2
+Git#16>HEAD is now at bce9c26 Upload recipe-make-cat1b 2.8.0.6814 [3455]
+Git#16>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/recipe-make-cat1b/release-v2.8.0 -c advice.detachedHead=false checkout --progress release-v2.8.0
+Git#19>Starting: git -C /Users/svt_btsdk_iop2/.modustoolbox/global/device-db/release-v4.23.0 -c advice.detachedHead=false checkout --progress release-v4.23.0
+Git#17>HEAD is now at 82c0c64 sync 'fw-cyw20829b0.zip' (btfw/fw3/20829B0/10058)
+Git#17>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/fw-cyw20829b0/release-v1.0.3 -c advice.detachedHead=false checkout --progress release-v1.0.3
+Git#18>HEAD is now at 89700d7 Upload cmsis 5.8.2.133 [3108]
+Git#18>Success: git -C /Users/svt_btsdk_iop2/mtw/mtb_shared/cmsis/release-v5.8.2 -c advice.detachedHead=false checkout --progress release-v5.8.2
+Git#19>HEAD is now at e3762d56 Upload device-db 4.23.0.8202 [3542]
+Git#19>Success: git -C /Users/svt_btsdk_iop2/.modustoolbox/global/device-db/release-v4.23.0 -c advice.detachedHead=false checkout --progress release-v4.23.0
+Git#2>warning: redirecting to https://gitlab.intra.infineon.com/repo-staging/TARGET_CYW920829M2EVK-02.git/
+Git#2>remote: Enumerating objects: 8464, done.        
+Git#2>remote: Counting objects:   6% (1/15)        
+Git#2>remote: Counting objects:  13% (2/15)        
+Git#2>remote: Counting objects:  20% (3/15)        
+Git#2>remote: Counting objects:  26% (4/15)        
+Git#2>remote: Counting objects:  33% (5/15)        
+Git#2>remote: Counting objects:  40% (6/15)        
+Git#2>remote: Counting objects:  46% (7/15)        
+Git#2>remote: Counting objects:  53% (8/15)        
+Git#2>remote: Counting objects:  60% (9/15)        
+Git#2>remote: Counting objects:  66% (10/15)        
+Git#2>remote: Counting objects:  73% (11/15)        
+Git#2>remote: Counting objects:  80% (12/15)        
+Git#2>remote: Counting objects:  86% (13/15)        
+Git#2>remote: Counting objects:  93% (14/15)        
+Git#2>remote: Counting objects: 100% (15/15)        
+Git#2>remote: Counting objects: 100% (15/15), done.        
+Git#2>remote: Compressing objects:   6% (1/15)        
+Git#2>remote: Compressing objects:  13% (2/15)        
+Git#2>remote: Compressing objects:  20% (3/15)        
+Git#2>remote: Compressing objects:  26% (4/15)        
+Git#2>remote: Compressing objects:  33% (5/15)        
+Git#2>remote: Compressing objects:  40% (6/15)        
+Git#2>remote: Compressing objects:  46% (7/15)        
+Git#2>remote: Compressing objects:  53% (8/15)        
+Git#2>remote: Compressing objects:  60% (9/15)        
+Git#2>remote: Compressing objects:  66% (10/15)        
+Git#2>remote: Compressing objects:  73% (11/15)        
+Git#2>remote: Compressing objects:  80% (12/15)        
+Git#2>remote: Compressing objects:  86% (13/15)        
+Git#2>remote: Compressing objects:  93% (14/15)        
+Git#2>remote: Compressing objects: 100% (15/15)        
+Git#2>remote: Compressing objects: 100% (15/15), done.        
+Git#2>Receiving objects:   0% (1/8464)
+Git#2>Receiving objects:   1% (85/8464)
+Git#2>Receiving objects:   2% (170/8464)
+Git#2>Receiving objects:   3% (254/8464)
+Git#2>Receiving objects:   4% (339/8464)
+Git#2>Receiving objects:   5% (424/8464)
+Git#2>Receiving objects:   6% (508/8464)
+Git#2>Receiving objects:   7% (593/8464)
+Git#2>Receiving objects:   8% (678/8464)
+Git#2>Receiving objects:   9% (762/8464)
+Git#2>Receiving objects:  10% (847/8464)
+Git#2>Receiving objects:  11% (932/8464)
+Git#2>Receiving objects:  12% (1016/8464)
+Git#2>Receiving objects:  13% (1101/8464)
+Git#2>Receiving objects:  14% (1185/8464)
+Git#2>Receiving objects:  15% (1270/8464)
+Git#2>Receiving objects:  16% (1355/8464)
+Git#2>Receiving objects:  17% (1439/8464)
+Git#2>Receiving objects:  18% (1524/8464)
+Git#2>Receiving objects:  19% (1609/8464)
+Git#2>Receiving objects:  20% (1693/8464)
+Git#2>Receiving objects:  21% (1778/8464)
+Git#2>Receiving objects:  22% (1863/8464)
+Git#2>Receiving objects:  23% (1947/8464)
+Git#2>Receiving objects:  24% (2032/8464)
+Git#2>Receiving objects:  25% (2116/8464)
+Git#2>Receiving objects:  26% (2201/8464)
+Git#2>Receiving objects:  27% (2286/8464)
+Git#2>Receiving objects:  28% (2370/8464)
+Git#2>Receiving objects:  29% (2455/8464)
+Git#2>Receiving objects:  30% (2540/8464)
+Git#2>Receiving objects:  31% (2624/8464)
+Git#2>Receiving objects:  32% (2709/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  33% (2794/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  34% (2878/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  35% (2963/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  36% (3048/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  37% (3132/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  38% (3217/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  39% (3301/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  40% (3386/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  41% (3471/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  42% (3555/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  43% (3640/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  44% (3725/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  45% (3809/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  46% (3894/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  47% (3979/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  48% (4063/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  49% (4148/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  50% (4232/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  51% (4317/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  52% (4402/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  53% (4486/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  54% (4571/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  55% (4656/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  56% (4740/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  57% (4825/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  58% (4910/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  59% (4994/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  60% (5079/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  61% (5164/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  62% (5248/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  63% (5333/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  64% (5417/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  65% (5502/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  66% (5587/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  67% (5671/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  68% (5756/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  69% (5841/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  70% (5925/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  71% (6010/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  72% (6095/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  73% (6179/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>remote: Total 8464 (delta 4), reused 0 (delta 0), pack-reused 8449 (from 1)        
+Git#2>Receiving objects:  74% (6264/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  75% (6348/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  76% (6433/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  77% (6518/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  78% (6602/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  79% (6687/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  80% (6772/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  81% (6856/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  82% (6941/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  82% (6988/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  83% (7026/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  84% (7110/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  85% (7195/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  86% (7280/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  87% (7364/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  88% (7449/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  89% (7533/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  90% (7618/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  91% (7703/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  92% (7787/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  93% (7872/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  94% (7957/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  95% (8041/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  96% (8126/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  97% (8211/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  98% (8295/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects:  99% (8380/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects: 100% (8464/8464), 515.83 KiB | 851.00 KiB/s
+Git#2>Receiving objects: 100% (8464/8464), 1.15 MiB | 1.06 MiB/s, done.
+Git#2>Resolving deltas:   0% (0/3249)
+Git#2>Resolving deltas:   1% (33/3249)
+Git#2>Resolving deltas:   2% (65/3249)
+Git#2>Resolving deltas:   3% (98/3249)
+Git#2>Resolving deltas:   4% (130/3249)
+Git#2>Resolving deltas:   5% (163/3249)
+Git#2>Resolving deltas:   6% (195/3249)
+Git#2>Resolving deltas:   7% (228/3249)
+Git#2>Resolving deltas:   8% (260/3249)
+Git#2>Resolving deltas:   9% (293/3249)
+Git#2>Resolving deltas:  10% (325/3249)
+Git#2>Resolving deltas:  11% (359/3249)
+Git#2>Resolving deltas:  12% (391/3249)
+Git#2>Resolving deltas:  13% (423/3249)
+Git#2>Resolving deltas:  14% (458/3249)
+Git#2>Resolving deltas:  15% (489/3249)
+Git#2>Resolving deltas:  16% (520/3249)
+Git#2>Resolving deltas:  17% (553/3249)
+Git#2>Resolving deltas:  18% (588/3249)
+Git#2>Resolving deltas:  19% (618/3249)
+Git#2>Resolving deltas:  20% (650/3249)
+Git#2>Resolving deltas:  21% (683/3249)
+Git#2>Resolving deltas:  22% (716/3249)
+Git#2>Resolving deltas:  23% (750/3249)
+Git#2>Resolving deltas:  24% (780/3249)
+Git#2>Resolving deltas:  25% (813/3249)
+Git#2>Resolving deltas:  26% (847/3249)
+Git#2>Resolving deltas:  27% (878/3249)
+Git#2>Resolving deltas:  28% (910/3249)
+Git#2>Resolving deltas:  29% (944/3249)
+Git#2>Resolving deltas:  30% (976/3249)
+Git#2>Resolving deltas:  31% (1009/3249)
+Git#2>Resolving deltas:  32% (1042/3249)
+Git#2>Resolving deltas:  33% (1073/3249)
+Git#2>Resolving deltas:  34% (1110/3249)
+Git#2>Resolving deltas:  35% (1138/3249)
+Git#2>Resolving deltas:  36% (1172/3249)
+Git#2>Resolving deltas:  37% (1203/3249)
+Git#2>Resolving deltas:  38% (1235/3249)
+Git#2>Resolving deltas:  39% (1268/3249)
+Git#2>Resolving deltas:  40% (1301/3249)
+Git#2>Resolving deltas:  41% (1333/3249)
+Git#2>Resolving deltas:  42% (1365/3249)
+Git#2>Resolving deltas:  43% (1400/3249)
+Git#2>Resolving deltas:  44% (1435/3249)
+Git#2>Resolving deltas:  45% (1463/3249)
+Git#2>Resolving deltas:  46% (1495/3249)
+Git#2>Resolving deltas:  47% (1529/3249)
+Git#2>Resolving deltas:  48% (1560/3249)
+Git#2>Resolving deltas:  49% (1593/3249)
+Git#2>Resolving deltas:  50% (1625/3249)
+Git#2>Resolving deltas:  51% (1657/3249)
+Git#2>Resolving deltas:  52% (1690/3249)
+Git#2>Resolving deltas:  53% (1722/3249)
+Git#2>Resolving deltas:  54% (1755/3249)
+Git#2>Resolving deltas:  55% (1790/3249)
+Git#2>Resolving deltas:  56% (1820/3249)
+Git#2>Resolving deltas:  57% (1854/3249)
+Git#2>Resolving deltas:  58% (1885/3249)
+Git#2>Resolving deltas:  59% (1917/3249)
+Git#2>Resolving deltas:  60% (1950/3249)
+Git#2>Resolving deltas:  61% (1984/3249)
+Git#2>Resolving deltas:  62% (2015/3249)
+Git#2>Resolving deltas:  63% (2049/3249)
+Git#2>Resolving deltas:  64% (2080/3249)
+Git#2>Resolving deltas:  65% (2112/3249)
+Git#2>Resolving deltas:  66% (2147/3249)
+Git#2>Resolving deltas:  67% (2179/3249)
+Git#2>Resolving deltas:  68% (2211/3249)
+Git#2>Resolving deltas:  69% (2243/3249)
+Git#2>Resolving deltas:  70% (2275/3249)
+Git#2>Resolving deltas:  71% (2309/3249)
+Git#2>Resolving deltas:  72% (2340/3249)
+Git#2>Resolving deltas:  73% (2372/3249)
+Git#2>Resolving deltas:  74% (2405/3249)
+Git#2>Resolving deltas:  75% (2437/3249)
+Git#2>Resolving deltas:  76% (2470/3249)
+Git#2>Resolving deltas:  77% (2503/3249)
+Git#2>Resolving deltas:  78% (2537/3249)
+Git#2>Resolving deltas:  79% (2567/3249)
+Git#2>Resolving deltas:  80% (2600/3249)
+Git#2>Resolving deltas:  81% (2633/3249)
+Git#2>Resolving deltas:  82% (2665/3249)
+Git#2>Resolving deltas:  83% (2698/3249)
+Git#2>Resolving deltas:  84% (2730/3249)
+Git#2>Resolving deltas:  85% (2762/3249)
+Git#2>Resolving deltas:  86% (2795/3249)
+Git#2>Resolving deltas:  87% (2827/3249)
+Git#2>Resolving deltas:  88% (2862/3249)
+Git#2>Resolving deltas:  89% (2892/3249)
+Git#2>Resolving deltas:  90% (2928/3249)
+Git#2>Resolving deltas:  91% (2960/3249)
+Git#2>Resolving deltas:  92% (2990/3249)
+Git#2>Resolving deltas:  93% (3022/3249)
+Git#2>Resolving deltas:  94% (3055/3249)
+Git#2>Resolving deltas:  95% (3087/3249)
+Git#2>Resolving deltas:  96% (3120/3249)
+Git#2>Resolving deltas:  97% (3152/3249)
+Git#2>Resolving deltas:  98% (3185/3249)
+Git#2>Resolving deltas:  99% (3219/3249)
+Git#2>Resolving deltas: 100% (3249/3249)
+Git#2>Resolving deltas: 100% (3249/3249), done.
+Git#2>Success: git -C /Users/svt_btsdk_iop2/mtw/battery-ota/libs clone --progress --origin cypress --no-checkout --filter=blob:none https://gitlab.intra.infineon.com/repo-staging/TARGET_CYW920829M2EVK-02 TARGET_CYW920829M2EVK-02
+Git#20>Starting: git -C /Users/svt_btsdk_iop2/mtw/battery-ota/libs/TARGET_CYW920829M2EVK-02 -c advice.detachedHead=false checkout --progress release-v2.0.2
+Git#20>warning: redirecting to https://gitlab.intra.infineon.com/repo-staging/TARGET_CYW920829M2EVK-02.git/
+Git#20>Updating files:   1% (2/150)
+Git#20>Updating files:   2% (3/150)
+Git#20>Updating files:   3% (5/150)
+Git#20>Updating files:   4% (6/150)
+Git#20>Updating files:   5% (8/150)
+Git#20>Updating files:   6% (9/150)
+Git#20>Updating files:   7% (11/150)
+Git#20>Updating files:   8% (12/150)
+Git#20>Updating files:   9% (14/150)
+Git#20>Updating files:  10% (15/150)
+Git#20>Updating files:  11% (17/150)
+Git#20>Updating files:  12% (18/150)
+Git#20>Updating files:  13% (20/150)
+Git#20>Updating files:  14% (21/150)
+Git#20>Updating files:  15% (23/150)
+Git#20>Updating files:  16% (24/150)
+Git#20>Updating files:  17% (26/150)
+Git#20>Updating files:  18% (27/150)
+Git#20>Updating files:  19% (29/150)
+Git#20>Updating files:  20% (30/150)
+Git#20>Updating files:  21% (32/150)
+Git#20>Updating files:  22% (33/150)
+Git#20>Updating files:  23% (35/150)
+Git#20>Updating files:  24% (36/150)
+Git#20>Updating files:  25% (38/150)
+Git#20>Updating files:  26% (39/150)
+Git#20>Updating files:  27% (41/150)
+Git#20>Updating files:  28% (42/150)
+Git#20>Updating files:  29% (44/150)
+Git#20>Updating files:  30% (45/150)
+Git#20>Updating files:  31% (47/150)
+Git#20>Updating files:  32% (48/150)
+Git#20>Updating files:  33% (50/150)
+Git#20>Updating files:  34% (51/150)
+Git#20>Updating files:  35% (53/150)
+Git#20>Updating files:  36% (54/150)
+Git#20>Updating files:  37% (56/150)
+Git#20>Updating files:  38% (57/150)
+Git#20>Updating files:  39% (59/150)
+Git#20>Updating files:  40% (60/150)
+Git#20>Updating files:  41% (62/150)
+Git#20>Updating files:  42% (63/150)
+Git#20>Updating files:  43% (65/150)
+Git#20>Updating files:  44% (66/150)
+Git#20>Updating files:  45% (68/150)
+Git#20>Updating files:  46% (69/150)
+Git#20>Updating files:  47% (71/150)
+Git#20>Updating files:  48% (72/150)
+Git#20>Updating files:  49% (74/150)
+Git#20>Updating files:  50% (75/150)
+Git#20>Updating files:  51% (77/150)
+Git#20>Updating files:  52% (78/150)
+Git#20>Updating files:  53% (80/150)
+Git#20>Updating files:  54% (81/150)
+Git#20>Updating files:  55% (83/150)
+Git#20>Updating files:  56% (84/150)
+Git#20>Updating files:  57% (86/150)
+Git#20>Updating files:  58% (87/150)
+Git#20>Updating files:  59% (89/150)
+Git#20>Updating files:  60% (90/150)
+Git#20>Updating files:  61% (92/150)
+Git#20>Updating files:  62% (93/150)
+Git#20>Updating files:  63% (95/150)
+Git#20>Updating files:  64% (96/150)
+Git#20>Updating files:  65% (98/150)
+Git#20>Updating files:  66% (99/150)
+Git#20>Updating files:  67% (101/150)
+Git#20>Updating files:  68% (102/150)
+Git#20>Updating files:  69% (104/150)
+Git#20>Updating files:  70% (105/150)
+Git#20>Updating files:  71% (107/150)
+Git#20>Updating files:  72% (108/150)
+Git#20>Updating files:  73% (110/150)
+Git#20>Updating files:  74% (111/150)
+Git#20>Updating files:  75% (113/150)
+Git#20>Updating files:  76% (114/150)
+Git#20>Updating files:  77% (116/150)
+Git#20>Updating files:  78% (117/150)
+Git#20>Updating files:  79% (119/150)
+Git#20>Updating files:  80% (120/150)
+Git#20>Updating files:  81% (122/150)
+Git#20>Updating files:  82% (123/150)
+Git#20>Updating files:  83% (125/150)
+Git#20>Updating files:  84% (126/150)
+Git#20>Updating files:  85% (128/150)
+Git#20>Updating files:  86% (129/150)
+Git#20>Updating files:  87% (131/150)
+Git#20>Updating files:  88% (132/150)
+Git#20>Updating files:  89% (134/150)
+Git#20>Updating files:  90% (135/150)
+Git#20>Updating files:  91% (137/150)
+Git#20>Updating files:  92% (138/150)
+Git#20>Updating files:  93% (140/150)
+Git#20>Updating files:  94% (141/150)
+Git#20>Updating files:  95% (143/150)
+Git#20>Updating files:  96% (144/150)
+Git#20>Updating files:  97% (146/150)
+Git#20>Updating files:  98% (147/150)
+Git#20>Updating files:  99% (149/150)
+Git#20>Updating files: 100% (150/150)
+Git#20>Updating files: 100% (150/150), done.
+Git#20>HEAD is now at ac0c316 sync 'TARGET_CYW920829M2EVK-02.zip' (repo/bsp_csp/release/release_dsram_secure_iv_fixes/45444)
+Git#20>Success: git -C /Users/svt_btsdk_iop2/mtw/battery-ota/libs/TARGET_CYW920829M2EVK-02 -c advice.detachedHead=false checkout --progress release-v2.0.2
+Requested to change the active target to 'APP_CYW920829M2EVK-02'.
+Removed the file '/Users/svt_btsdk_iop2/mtw/battery-ota/deps/TARGET_CYW920829M2EVK-02.mtb'.
+Writing the file '/Users/svt_btsdk_iop2/mtw/battery-ota/libs/app.mk'.
+Successfully committed changes to the project 'mtb-example-btstack-freertos-cyw20829-battery-server-ota'.
+Project "battery-ota" created successfully.
+Successfully created "battery-ota" application.
+==============================================================================
+= Export "battery-ota" application to Eclipse IDE for ModusToolbox™ =
+==============================================================================
+make eclipse CY_IDE_PRJNAME=battery-ota CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=3.4 CY_TOOLS_PATHS=/Applications/ModusToolbox/tools_3.4 MTB_MAKE_ECLIPSE_FORCE_REGENERATE_PROJECT=1
+CY_PYTHON_PATH = python3
+OTA_FLASH_MAP = ./flash_map_json/cyw20829_xip_swap_single.json
+Parsing flashmap and generating flashmap.mk ...
+include flashmap.mk
+CY_BUILD_LOCATION     = ./build
+TARGET                = APP_CYW920829M2EVK-02
+CONFIG                = Release
+OUTPUT_FILE_PATH      = ./build/APP_CYW920829M2EVK-02/Release
+Application Makefile has not defined OTA_APP_POSTBUILD. Using OTA library's default POSTBUILD commands.
+Application makefile has not defined OTA_APP_POLICY_PATH. Using OTA library's default Policy file for 20829 & 89829 device.
+OTA_APP_POLICY_PATH   = ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/policy/policy_CM33_no_secure.json 
+Tools Directory: /Applications/ModusToolbox/tools_3.4
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using '/Applications/ModusToolbox/tools_3.4/ninja/ninja' from PATH.
+../mtb_shared/core-make/release-v3.6.1/make/core/main.mk:378: /Users/svt_btsdk_iop2/mtw/battery-ota/build/APP_CYW920829M2EVK-02/Release/cyqbuild.mk: No such file or directory
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Prebuild operations complete
+Toolchain validation: PASS
+Initializing build: mtb-example-btstack-freertos-cyw20829-battery-server-ota Release APP_CYW920829M2EVK-02 GCC_ARM
+Auto-discovery in progress...
+Auto-discovery complete
+CY_PYTHON_PATH = python3
+OTA_FLASH_MAP = ./flash_map_json/cyw20829_xip_swap_single.json
+Parsing flashmap and generating flashmap.mk ...
+include flashmap.mk
+CY_BUILD_LOCATION     = ./build
+TARGET                = APP_CYW920829M2EVK-02
+CONFIG                = Release
+OUTPUT_FILE_PATH      = ./build/APP_CYW920829M2EVK-02/Release
+Application Makefile has not defined OTA_APP_POSTBUILD. Using OTA library's default POSTBUILD commands.
+Application makefile has not defined OTA_APP_POLICY_PATH. Using OTA library's default Policy file for 20829 & 89829 device.
+OTA_APP_POLICY_PATH   = ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/policy/policy_CM33_no_secure.json 
+Tools Directory: /Applications/ModusToolbox/tools_3.4
+NOTE: Using '/Applications/ModusToolbox/tools_3.4/ninja/ninja' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-btstack-freertos-cyw20829-battery-server-ota Release APP_CYW920829M2EVK-02 GCC_ARM
+Prebuild operations complete
+# 0: Loading the application in directory '/Users/svt_btsdk_iop2/mtw/battery-ota'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+Generated /Users/svt_btsdk_iop2/mtw/battery-ota/.cproject
+Generated /Users/svt_btsdk_iop2/mtw/battery-ota/.project
+Generated /Users/svt_btsdk_iop2/mtw/battery-ota/.mtbLaunchConfigs/battery-ota Program (KitProg3_MiniProg4).launch
+Generated /Users/svt_btsdk_iop2/mtw/battery-ota/.mtbLaunchConfigs/battery-ota Erase Device (KitProg3_MiniProg4).launch
+Generated /Users/svt_btsdk_iop2/mtw/battery-ota/.mtbLaunchConfigs/battery-ota Attach (KitProg3_MiniProg4).launch
+Generated /Users/svt_btsdk_iop2/mtw/battery-ota/.mtbLaunchConfigs/battery-ota Debug (KitProg3_MiniProg4).launch
+Instructions:
+1. Open Eclipse IDE for ModusToolbox
+2. Select 'Import Existing Application In-Place' from the QuickPanel
+3. Browse to the application root directory
+For more information, refer to the Eclipse IDE for ModusToolbox user guide.
+The application "battery-ota" was successfully exported to Eclipse IDE for ModusToolbox™.
+0 error(s), 0 warning(s)
+
+Summary:
+
+Successfully created and exported "battery-ota" application.
