@@ -1,0 +1,414 @@
+14:28:27 **** Build of configuration Debug for project Bluetooth_LE_Battery_Server_with_OTA ****
+/Applications/ModusToolbox/tools_3.4/modus-shell/bin/make CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=/Applications/ModusToolbox/tools_3.4 CY_IDE_BT_TOOLS_DIR= -j16 build_proj 
+CY_PYTHON_PATH = python3
+OTA_FLASH_MAP = ./flash_map_json/cyw20829_xip_swap_single.json
+Parsing flashmap and generating flashmap.mk ...
+include flashmap.mk
+CY_BUILD_LOCATION     = ./build
+TARGET                = APP_CYW920829M2EVK-02
+CONFIG                = Release
+OUTPUT_FILE_PATH      = ./build/APP_CYW920829M2EVK-02/Release
+Application Makefile has not defined OTA_APP_POSTBUILD. Using OTA library's default POSTBUILD commands.
+Application makefile has not defined OTA_APP_POLICY_PATH. Using OTA library's default Policy file for 20829 & 89829 device.
+OTA_APP_POLICY_PATH   = ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/policy/policy_CM33_no_secure.json 
+Tools Directory: /Applications/ModusToolbox/tools_3.4
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using '/Applications/ModusToolbox/tools_3.4/ninja/ninja' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-btstack-freertos-cyw20829-battery-server-ota Release APP_CYW920829M2EVK-02 GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory '/Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/local/app_bt_configs/GeneratedSource/cycfg_bt_settings.o
+[2/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/local/app_bt_configs/GeneratedSource/cycfg_gap.o
+[3/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/local/app_bt_configs/GeneratedSource/cycfg_gatt_db.o
+[4/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/config/GeneratedSource/cycfg_qspi_memslot.o
+[5/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/local/app_bt/app_bt_utils.o
+[6/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/startup_cat1b_cm33.o
+[7/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/TOOLCHAIN_GCC_ARM/cy_syslib_ext.o
+[8/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/cybsp.o
+[9/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/cybsp_pm.o
+[10/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/bluetooth/cybsp_bt_config.o
+[11/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/config/GeneratedSource/cycfg_system.o
+[12/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/system_cyw20829.o
+[13/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/config/GeneratedSource/cycfg.o
+[14/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/cybsp_smif_init.o
+[15/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/cybsp_pm_callbacks.o
+[16/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/bsps/APP_CYW920829M2EVK-02/cybsp_dsram.o
+[17/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/local/app_bt_ota/app_ota_defaults.o
+[18/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/abstraction-rtos/source/COMPONENT_FREERTOS/cyabs_freertos_common.o
+[19/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/local/app_bt/app_bt_event_handler.o
+[20/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/local/app_bt_ota/cy_ota_flash.o
+[21/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/abstraction-rtos/source/COMPONENT_FREERTOS/cyabs_rtos_dsram.o
+[22/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/abstraction-rtos/source/COMPONENT_FREERTOS/cyabs_freertos_helpers.o
+[23/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/abstraction-rtos/source/cy_worker_thread.o
+[24/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/common/cybt_platform_trace.o
+[25/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/local/main.o
+[26/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/local/app_bt/app_bt_gatt_handler.o
+[27/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/common/cybt_serialize.o
+[28/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/common/cybt_prm.o
+[29/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/common/cybt_patchram_download.o
+[30/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/ipc/cybt_platform_freertos.o
+[31/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/connectivity-utilities/cy_string/cy_string_utils.o
+[32/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/ipc/cybt_bt_task.o
+[33/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/common/cybt_platform_main.o
+[34/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/clib-support/source/COMPONENT_FREERTOS/cy_mutex_pool.o
+[35/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/clib-support/source/TOOLCHAIN_GCC_ARM/cy_clib_support_newlib.o
+[36/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/connectivity-utilities/linked_list/cy_linked_list.o
+[37/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/ipc/cybt_host_stack_platform_interface.o
+[38/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/ipc/cybt_platform_timer.o
+[39/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/connectivity-utilities/network/cy_nw_helper_common.o
+[40/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/clib-support/source/cy_time.o
+[41/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/ipc/cybt_platform_task.o
+[42/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/abstraction-rtos/source/COMPONENT_FREERTOS/cyabs_rtos_freertos.o
+[43/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/connectivity-utilities/JSON_parser/cy_json_parser.o
+[44/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/croutine.o
+[45/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/portable/COMPONENT_CM33/TOOLCHAIN_GCC_ARM/portasm.o
+[46/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/portable/COMPONENT_CM33/TOOLCHAIN_GCC_ARM/portdsram.o
+[47/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/list.o
+[48/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/portable/MemMang/heap_3.o
+[49/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/portable/MemMang/heap_1.o
+[50/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/fw-cyw20829b0/COMPONENT_BTFW-TX10/btfw.o
+[51/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/connectivity-utilities/cy_log/cy_log.o
+[52/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/event_groups.o
+[53/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/portable/COMPONENT_CM33/TOOLCHAIN_GCC_ARM/port.o
+[54/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/portable/MemMang/heap_5.o
+[55/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/btstack-integration/COMPONENT_BTSS-IPC/platform/ipc/cybt_platform_hci.o
+[56/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/portable/MemMang/heap_4.o
+[57/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/portable/MemMang/heap_2.o
+[58/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/pin_packages/cyhal_cyw20829_56_qfn.o
+[59/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/pin_packages/cyhal_cyw20829_77_bga.o
+[60/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/pin_packages/cyhal_cyw20829_40_qfn.o
+[61/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/pin_packages/cyhal_psc3_e_lqfp_64.o
+[62/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/pin_packages/cyhal_psc3_e_lqfp_48.o
+[63/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/pin_packages/cyhal_psc3_e_lqfp_80.o
+[64/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/pin_packages/cyhal_psc3_vqfn_64.o
+[65/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/pin_packages/cyhal_psc3_vqfn_48.o
+[66/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/timers.o
+[67/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/triggers/cyhal_triggers_cyw20829.o
+[68/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1B/source/triggers/cyhal_triggers_psc3.o
+[69/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_analog_common.o
+[70/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/stream_buffer.o
+[71/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_adc_sar.o
+[72/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/queue.o
+[73/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_comp.o
+[74/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_crc.o
+[75/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_comp_ctb.o
+[76/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_crypto_common.o
+[77/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_comp_lp.o
+[78/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_adc_mic.o
+[79/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_dac.o
+[80/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dmac.o
+[81/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/freertos/Source/tasks.o
+[82/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_dma.o
+[83/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_clock.o
+[84/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_ezi2c.o
+[85/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_gpio.o
+[86/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_hwmgr.o
+[87/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dw.o
+[88/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_irq_impl.o
+[89/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_ipc.o
+[90/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_interconnect.o
+[91/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_i2s.o
+[92/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_nvm.o
+[93/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_opamp.o
+[94/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_keyscan.o
+[95/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_audio_common.o
+[96/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_lptimer.o
+[97/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_sdhc.o
+[98/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_i2c.o
+[99/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_rtc.o
+[100/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_trng.o
+[101/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_system.o
+[102/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_syspm.o
+[103/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_scb_common.o
+[104/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_tdm.o
+[105/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_udb_sdio.o
+[106/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_quaddec.o
+[107/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_timer.o
+[108/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_usb_dev.o
+[109/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_utils.o
+[110/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/devices/COMPONENT_CAT1B/source/cy_device.o
+[111/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_pwm.o
+[112/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_axidmac.o
+[113/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_tcpwm_common.o
+[114/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ble_clk.o
+[115/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto.o
+[116/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cordic.o
+[117/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v1.o
+[118/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_pdmpcm.o
+[119/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v2.o
+[120/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_adcmic.o
+[121/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v2.o
+[122/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_qspi.o
+[123/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v1.o
+[124/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v1.o
+[125/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v2.o
+[126/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v1.o
+[127/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_utils_impl.o
+[128/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_domain_params.o
+[129/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v2.o
+[130/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_wdt.o
+[131/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ecdsa.o
+[132/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_eddsa.o
+[133/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ec25519.o
+[134/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hkdf_v2.o
+[135/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_key_gen.o
+[136/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_nist_p.o
+[137/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v1.o
+[138/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw.o
+[139/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw_v1.o
+[140/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v1.o
+[141/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v2.o
+[142/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v1.o
+[143/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v2.o
+[144/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v2.o
+[145/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_rsa.o
+[146/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_trng.o
+[147/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v2.o
+[148/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_server.o
+[149/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v1.o
+[150/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_vu.o
+[151/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_spi.o
+[152/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_key_gen.o
+[153/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hkdf.o
+[154/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_canfd.o
+[155/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_cmac.o
+[156/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_sha256.o
+[157/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hmac.o
+[158/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes_ccm.o
+[159/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_trng.o
+[160/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_utils.o
+[161/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_csd.o
+[162/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_vu.o
+[163/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_ec25519.o
+[164/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctb.o
+[165/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecdsa.o
+[166/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_uart.o
+[167/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctdac.o
+[168/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_rsa.o
+[169/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dmac.o
+[170/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ethif.o
+[171/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ephy.o
+[172/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dma.o
+[173/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_evtgen.o
+[174/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_v2.o
+[175/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_srom.o
+[176/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse.o
+[177/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass.o
+[178/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash.o
+[179/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_ac.o
+[180/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_sar.o
+[181/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_i2s.o
+[182/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse_v3.o
+[183/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_nist_p.o
+[184/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_csg.o
+[185/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_drv.o
+[186/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_gpio.o
+[187/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lpcomp.o
+[188/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd_ht.o
+[189/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_sema.o
+[190/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_pipe.o
+[191/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes.o
+[192/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt_b.o
+[193/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mixer.o
+[194/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd.o
+[195/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt.o
+[196/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm.o
+[197/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ms_ctl.o
+[198/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra.o
+[199/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_profile.o
+[200/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lin.o
+[201/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mpc.o
+[202/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_eddsa.o
+[203/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm_v2.o
+[204/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_keyscan.o
+[205/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ppc.o
+[206/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra_cfg.o
+[207/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar.o
+[208/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_prot.o
+[209/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar2.o
+[210/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_seglcd.o
+[211/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sd_host.o
+[212/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_common.o
+[213/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysanalog.o
+[214/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk.o
+[215/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysfault.o
+[216/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint.o
+[217/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_ezi2c.o
+[218/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smartio.o
+[219/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_bt.o
+[220/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_spi.o
+[221/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm.o
+[222/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint_v2.o
+[223/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_rtc.o
+[224/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_hb_flash.o
+[225/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_btss.o
+[226/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syslib.o
+[227/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_pdcm.o
+[228/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v3.o
+[229/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif.o
+[230/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_ppu.o
+[231/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_uart.o
+[232/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v4.o
+[233/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick.o
+[234/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_motif.o
+[235/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_counter.o
+[236/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv.o
+[237/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_quaddec.o
+[238/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick_v2.o
+[239/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io_dma.o
+[240/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io.o
+[241/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_sfdp.o
+[242/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_shiftreg.o
+[243/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tdm.o
+[244/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt_b.o
+[245/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_trigmux.o
+[246/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_i2c.o
+[247/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_pwm.o
+[248/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_rx.o
+[249/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/ppu_v1.o
+[250/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_tx.o
+[251/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd.o
+[252/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt.o
+[253/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_memslot.o
+[254/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v2.o
+[255/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk_v2.o
+[256/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/ota-bootloader-abstraction/source/untar/cy_ota_untar.o
+[257/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/ota-bootloader-abstraction/source/COMPONENT_MCUBOOT/cy_ota_flash_weak.o
+[258/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/ota-update/source/cy_ota_http.o
+[259/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/ota-update/source/cy_ota_mqtt.o
+[260/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/ota-bootloader-abstraction/source/COMPONENT_MCUBOOT/cy_ota_storage_api.o
+[261/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/ota-bootloader-abstraction/source/COMPONENT_MCUBOOT/cy_flash_map.o
+[262/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/ota-bootloader-abstraction/source/COMPONENT_MCUBOOT/cy_ota_untar_wrapper.o
+[263/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/retarget-io/source/cy_retarget_io.o
+[264/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/ota-update/source/cy_ota_agent.o
+[265/266] Building object file /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/Release/libraries_shared/ota-update/source/cy_ota_ble.o
+[266/266] Linking, creating elf file build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.elf
+/Applications/ModusToolbox/tools_3.4/gcc/bin/arm-none-eabi-objcopy -O ihex /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.elf /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.final.hex
+/Applications/ModusToolbox/tools_3.4/gcc/bin/arm-none-eabi-objcopy /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.elf -S -O binary /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.bin; bash --norc --noprofile ../mtb_shared/recipe-make-cat1b/release-v2.8.0/make/scripts/20829/flash_postbuild.sh "GCC_ARM" "/Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release" "mtb-example-btstack-freertos-cyw20829-battery-server-ota" "/Applications/ModusToolbox/tools_3.4/gcc/bin" "/Applications/ModusToolbox/tools_3.4/srecord/bin/srec_cat" "0x00002400"; bash --norc --noprofile ../mtb_shared/recipe-make-cat1b/release-v2.8.0/make/scripts/20829/run_toc2_generator.sh "NON_SECURE" "/Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release" "mtb-example-btstack-freertos-cyw20829-battery-server-ota" "flash" "bsps/TARGET_APP_CYW920829M2EVK-02" "NONE" "/Applications/ModusToolbox/tools_3.4/gcc" "" 0x20000 0 "" "0x00002400" "256"; /Applications/ModusToolbox/tools_3.4/srecord/bin/srec_cat /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.final.bin -Binary -offset 0x60000000 -o /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.final.hex -Intel -Output_Block_Size=16; rm -rf /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.bin;cp -f /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.final.hex /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/last_config/mtb-example-btstack-freertos-cyw20829-battery-server-ota.final.hex
+Skipping GCC_ARM flash app postbuild step.
+"/Applications/ModusToolbox/tools_3.4/gcc/bin/arm-none-eabi-objcopy" "/Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.elf" -S -O binary "/Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release/mtb-example-btstack-freertos-cyw20829-battery-server-ota.bin"; ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/sign_script_20829_ns.bash /Applications/ModusToolbox/tools_3.4/gcc python3 /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release mtb-example-btstack-freertos-cyw20829-battery-server-ota "/Applications/ModusToolbox/tools_3.4/gcc/bin/arm-none-eabi-objcopy" "-O ihex" "elf_first" "/Applications/ModusToolbox/tools_3.4/gcc/bin/arm-none-eabi-objcopy" 0xFF 0x400 1.1.0 CYW20829 0x60000000 0x08000000 0x020000 0x060000 0x080000 ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/keys cypress-test-ec-p256.pem ../mtb_shared/recipe-make-cat1b/release-v2.8.0/make/scripts/20829/run_toc2_generator.sh NORMAL_NO_SECURE mcuboot_user_app mtb-example-btstack-freertos-cyw20829-battery-server-ota flash /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/ NONE ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/policy/policy_CM33_no_secure.json 0x0 0x00002400 256 0 0 0 "NA" ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/keys/priv_oem_0.pem 0 "--erased-val 0xFF";
+
+------------------------------------------ MCUBOOT SIGN Vars ------------------------------------------
+CURRENT_DIRECTORY                       = /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/
+GCC_ARM_TOOLCHAIN_PATH                  = /Applications/ModusToolbox/tools_3.4/gcc
+CY_PYTHON_PATH                          = python3
+CY_OUTPUT_PATH                          = /Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/build/APP_CYW920829M2EVK-02/Release
+CY_OUTPUT_NAME                          = mtb-example-btstack-freertos-cyw20829-battery-server-ota
+CY_ELF_TO_HEX                           = /Applications/ModusToolbox/tools_3.4/gcc/bin/arm-none-eabi-objcopy
+CY_ELF_TO_HEX_OPTIONS                   = -O ihex
+CY_ELF_TO_HEX_FILE_ORDER                = elf_first
+CY_HEX_TO_BIN                           = /Applications/ModusToolbox/tools_3.4/gcc/bin/arm-none-eabi-objcopy
+MCUBOOT_HEADER_SIZE                     = 0x400
+APP_BUILD_VERSION                       = 1.1.0
+FLASH_BASE_ADDRESS                      = 0x60000000
+FLASH_BASE_CBUS_ADDRESS                 = 0x08000000
+FLASH_AREA_IMG_1_PRIMARY_START          = 0x020000
+FLASH_AREA_IMG_1_PRIMARY_START_ABS      = 0x60020000
+FLASH_AREA_IMG_1_PRIMARY_START_CBUS     = 0x8020000
+FLASH_AREA_IMG_1_SECONDARY_START        = 0x080000
+FLASH_AREA_IMG_1_SECONDARY_START_CBUS   = 0x8080000
+CY_SLOT_SIZE                            = 0x060000
+FLASH_ERASE_VALUE                       = 0xFF
+MCUBOOT_KEY_DIR                         = ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/keys
+MCUBOOT_KEY_FILE                        = cypress-test-ec-p256.pem
+CY_TOC2_GENERATOR                       = ../mtb_shared/recipe-make-cat1b/release-v2.8.0/make/scripts/20829/run_toc2_generator.sh
+CY_SIGN_TYPE                            = mcuboot_user_app
+APPNAME                                 = mtb-example-btstack-freertos-cyw20829-battery-server-ota
+APPTYPE                                 = flash
+SMIF_CRYPTO_CONFIG                      = NONE
+OTA_APP_POLICY_PATH                     = ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/policy/policy_CM33_no_secure.json
+CY_SLOT_SIZE                            = 0x060000
+CY_SERVICE_APP_DESCR_ADDR               = 0x0
+BOOTSTRAP_SIZE                          = 0x00002400
+DEVICE_SRAM_SIZE_KB                     = 256
+CY_SIGN_IMG_ID                          = 0
+CY_ENC_IMG                              = 0
+CY_ENC_KEY                              = NA
+CY_OEM_PRIVATE_KEY                      = ../mtb_shared/ota-bootloader-abstraction/release-v1.5.3/makefiles/mcuboot/../../scripts/mcuboot/keys/priv_oem_0.pem
+CY_ADD_ARGS                             = --erased-val 0xFF
+Working directory
+/Users/svt_btsdk_iop2/mtw/Bluetooth_LE_Battery_Server_with_OTA/
+
+------------------------------- Signing and Encrypting OTA Images -------------------------------
+ LCS: NORMAL_NO_SECURE 
+ ENCYPTION : 0
+-------------------------------------------------------------------------------------------------
+[Bin to Hex for debug (unsigned)]
+
+
+[TOC2_Generate - Executing toc2 generator script for mtb-example-btstack-freertos-cyw20829-battery-server-ota]
+
+------------------------------- Signing and Encrypting BOOT Image -------------------------------
+[SIGNING BOOT using cysecuretools]
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/__main__.py", line 25, in <module>
+    main()
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/__main__.py", line 21, in main
+    CliCreator.create()
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/cli_creator.py", line 38, in create
+    platform = CliCreator._get_platform(target)
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/cli_creator.py", line 151, in _get_platform
+    target = target_data(target_name.lower())
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/__init__.py", line 48, in target_data
+    target_map = __target_map()
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/__init__.py", line 35, in __target_map
+    module = import_module(f'.targets.{entry.name}', package=pkg_name)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/cyw89829/__init__.py", line 17, in <module>
+    from .target_builder import CYW89829Builder
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/cyw89829/target_builder.py", line 17, in <module>
+    from ..cyw20829 import CYW20829Builder
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/cyw20829/__init__.py", line 17, in <module>
+    from .target_builder import CYW20829Builder
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/cyw20829/target_builder.py", line 17, in <module>
+    from ..cyw20829_a0 import CYW20829A0Builder
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/cyw20829_a0/__init__.py", line 17, in <module>
+    from .target_builder import CYW20829A0Builder
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/cyw20829_a0/target_builder.py", line 17, in <module>
+    from .policy_generator import PolicyGenerator
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/cyw20829_a0/policy_generator.py", line 19, in <module>
+    from .maps.asset_map import AssetMapCYW20829
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/cyw20829_a0/maps/asset_map.py", line 17, in <module>
+    from ...common.mxs40sv2.nv_counter_calc import NvCounterCalculator
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/common/mxs40sv2/__init__.py", line 22, in <module>
+    from .policy_validator_mxs40v2 import PolicyValidatorMXS40v2
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/common/mxs40sv2/policy_validator_mxs40v2.py", line 20, in <module>
+    from ...common.policy_validator import PolicyValidator
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/cysecuretools/targets/common/policy_validator.py", line 20, in <module>
+    import jsonschema
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/jsonschema/__init__.py", line 13, in <module>
+    from jsonschema._format import FormatChecker
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/jsonschema/_format.py", line 11, in <module>
+    from jsonschema.exceptions import FormatError
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/jsonschema/exceptions.py", line 15, in <module>
+    from referencing.exceptions import Unresolvable as _Unresolvable
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/referencing/__init__.py", line 5, in <module>
+    from referencing._core import Anchor, Registry, Resource, Specification
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/referencing/_core.py", line 9, in <module>
+    from rpds import HashTrieMap, HashTrieSet, List
+  File "/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/rpds/__init__.py", line 1, in <module>
+    from .rpds import *
+ImportError: dlopen(/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/rpds/rpds.cpython-39-darwin.so, 0x0002): tried: '/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/rpds/rpds.cpython-39-darwin.so' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/rpds/rpds.cpython-39-darwin.so' (no such file), '/Users/svt_btsdk_iop2/Library/Python/3.9/lib/python/site-packages/rpds/rpds.cpython-39-darwin.so' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+make: *** [_mtb_build__legacy_project_postbuild] Error 1
+"/Applications/ModusToolbox/tools_3.4/modus-shell/bin/make CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=/Applications/ModusToolbox/tools_3.4 CY_IDE_BT_TOOLS_DIR= -j16 build_proj" terminated with exit code 2. Build might be incomplete.
+
+14:28:38 Build Failed. 1 errors, 0 warnings. (took 10s.697ms)
+
